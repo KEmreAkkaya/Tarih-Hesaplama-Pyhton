@@ -1,1 +1,1 @@
-#Bu projede amaç CUmhuriyetten bu yana kaç yıl kaç ay kaç gün geçtiğini Python dili gerçekleştirmektir.
+#Bu projede amaç Cumhuriyet'ten bu yana kaç yıl kaç ay kaç gün ve ayrıca kaç haftasonu geçtiğini Python dili gerçekleştirmektir.
