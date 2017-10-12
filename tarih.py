@@ -63,7 +63,7 @@ def gunhesapla(gun1, ay1, yil1, gun2, ay2, yil2):
                 gun = gun2 - gun1
 
     # 30 gün içeren aylara eğer gün2 < gün1 se 30 ekle.
-         if (ay2 == Aylar.Nisan.value or ay2 == Aylar.Haziran.value or ay2 == Aylar.Eylül.value or ay2 == Aylar.Kasim.value):
+         if (ay2 == Aylar.Nisan.value or ay2 == Aylar.Haziran.value or ay2 == Aylar.Eylul.value or ay2 == Aylar.Kasim.value):
                 gun2 += 30
                 deger = 1
                 gun = gun2 - gun1
@@ -218,7 +218,7 @@ ayhesap = b * 30
 
 print(b ,  " ay, gün olarak " ,ayhesap , "gün eder.")
 
-int
+
 toplam = yilhesap + ayhesap + a
 
 print("Tüm yıl,ay,gün toplam = ", toplam , " gün eder.")
@@ -243,3 +243,5 @@ for haftaningunu in range(1,toplam,1):
 
 
 print("1923 den bu yana ",say , " kadar haftasonu geçti.")
+
+
