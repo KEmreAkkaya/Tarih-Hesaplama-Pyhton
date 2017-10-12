@@ -31,7 +31,8 @@ class Günler(Enum):
 
 
 def gunhesapla(gun1, ay1, yil1, gun2, ay2, yil2):
-
+    global deger
+    global deger2
     gun=0
     if (gun2 >= gun1):
 
@@ -64,6 +65,7 @@ def gunhesapla(gun1, ay1, yil1, gun2, ay2, yil2):
 
     # 30 gün içeren aylara eğer gün2 < gün1 se 30 ekle.
          if (ay2 == Aylar.Nisan.value or ay2 == Aylar.Haziran.value or ay2 == Aylar.Eylul.value or ay2 == Aylar.Kasim.value):
+                
                 gun2 += 30
                 deger = 1
                 gun = gun2 - gun1
@@ -75,7 +77,8 @@ def gunhesapla(gun1, ay1, yil1, gun2, ay2, yil2):
 
 
 def ayhesapla(ay1,yil1,ay2,yil2):
-
+    global deger
+    global deger2
     ay = 0
     if (deger == 1): #Eğer gün2 < gün1 se değer i kontrol et eğer 1 ise ay ı 1 eksilt.
 
@@ -102,7 +105,7 @@ def ayhesapla(ay1,yil1,ay2,yil2):
 
 
 def yilhesapla(yil1,yil2):
-
+    global deger2
     yil = 0
     if (deger2 == 1): # Eğer ay2 < ay1 ise  deger2 yi kontrol et.Değer2 == 1 ise yıldan 1 eksiltme yap.
 
